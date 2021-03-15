@@ -6,7 +6,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping(path = "api/v1/student")
+@RequestMapping(path = "api/v1/Student")
 public class StudentController {
 
     private final StudentService studentService;
